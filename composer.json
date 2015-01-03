@@ -3,5 +3,14 @@
   "description": "Simple mvc project",
   "autoload": {
     "psr-4" : {"WND\\SMVCP\\" : "src/"}
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/csanyigabor/smvcf.git"
+    }
+  ],
+  "require": {
+    "wnd/smvcf": "~0.0"
   }
 }
