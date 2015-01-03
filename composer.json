@@ -2,6 +2,6 @@
   "name": "wnd/smvcp",
   "description": "Simple mvc project",
   "autoload": {
-    "psr-4" : {"WND\\SMVCP\\" : ""}
+    "psr-4" : {"WND\\SMVCP\\" : "src/"}
   }
 }
