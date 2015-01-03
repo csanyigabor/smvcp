@@ -1,0 +1,4 @@
+smvcp
+=====
+
+Simple mvc project
