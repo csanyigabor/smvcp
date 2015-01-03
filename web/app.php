@@ -1,6 +1,7 @@
 <?php
 
 use WND\SMVCP\AppKernel;
+use Symfony\Component\HttpFoundation\Request;
 
 $autoloadFile = implode(
     DIRECTORY_SEPARATOR,
@@ -16,4 +17,8 @@ if (!file_exists($autoloadFile)) {
 
 require_once $autoloadFile;
 
+$request = Request::createFromGlobals();
+
 $kernel = new AppKernel();
+$response = $kernel->process($request);
+$response->send();
