@@ -1,0 +1,7 @@
+subscriber_list:
+    path: /subscribers
+    defaults: {_controller: "Subscriber:list", _ns: "WND\SMVCP\Controller"}
+
+subscriber_create:
+    path: /subscriber/create
+    defaults: {_controller: "Subscriber:create", _ns: "WND\SMVCP\Controller"}
