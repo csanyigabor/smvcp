@@ -1713,16 +1713,16 @@
         },
         {
             "name": "wnd/smvcf",
-            "version": "0.22.3",
+            "version": "0.22.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/csanyigabor/smvcf.git",
-                "reference": "b2a2da87ab32471dffb697cc85234e056e8be580"
+                "reference": "c9b9b47e13b9b13477108da534fcd9f604908493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/csanyigabor/smvcf/zipball/b2a2da87ab32471dffb697cc85234e056e8be580",
-                "reference": "b2a2da87ab32471dffb697cc85234e056e8be580",
+                "url": "https://api.github.com/repos/csanyigabor/smvcf/zipball/c9b9b47e13b9b13477108da534fcd9f604908493",
+                "reference": "c9b9b47e13b9b13477108da534fcd9f604908493",
                 "shasum": ""
             },
             "require": {
@@ -1745,10 +1745,10 @@
             },
             "description": "Simple mvc framework",
             "support": {
-                "source": "https://github.com/csanyigabor/smvcf/tree/0.22.3",
+                "source": "https://github.com/csanyigabor/smvcf/tree/0.22.5",
                 "issues": "https://github.com/csanyigabor/smvcf/issues"
             },
-            "time": "2015-01-04 12:18:21"
+            "time": "2015-01-04 12:34:50"
         }
     ],
     "packages-dev": [],
