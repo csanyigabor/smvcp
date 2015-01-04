@@ -4,8 +4,16 @@ namespace WND\SMVCP\Repository;
 
 use Doctrine\ORM\EntityRepository;
 
+/**
+ * Class Subscriber
+ */
 class Subscriber extends EntityRepository
 {
+    /**
+     * @param int $limit
+     *
+     * @return \WND\SMVCP\Entity\Subscriber[]
+     */
     public function getLatest($limit)
     {
         return $this

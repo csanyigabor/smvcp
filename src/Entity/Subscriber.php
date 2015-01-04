@@ -2,6 +2,9 @@
 
 namespace WND\SMVCP\Entity;
 
+/**
+ * Class Subscriber
+ */
 class Subscriber
 {
     /**

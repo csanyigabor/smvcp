@@ -6,8 +6,15 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Validator\Constraints;
 
+/**
+ * Class CreateSubscriberType
+ */
 class CreateSubscriberType extends AbstractType
 {
+    /**
+     * @param \Symfony\Component\Form\FormBuilderInterface $builder
+     * @param array $options
+     */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         parent::buildForm($builder, $options);
@@ -44,6 +51,9 @@ class CreateSubscriberType extends AbstractType
         ;
     }
 
+    /**
+     * @return string
+     */
     public function getName()
     {
         return "smvcp_create_subscriber";
