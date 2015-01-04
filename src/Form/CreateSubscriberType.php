@@ -23,7 +23,7 @@ class CreateSubscriberType extends AbstractType
                         new Constraints\NotBlank(),
                         new Constraints\Length(['max' => 255]),
                         new Constraints\Regex(
-                            ['pattern' => '/^[\p{L}\s\.\-\_\@]+$/u']
+                            ['pattern' => '/^[\p{L}\d\s\.\-\_\@]+$/u']
                         ),
                     ],
                 ]
