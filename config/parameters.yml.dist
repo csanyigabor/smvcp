@@ -1,0 +1,9 @@
+parameters:
+    database_driver:   pdo_mysql
+    database_host:     127.0.0.1
+    database_port:     ~
+    database_name:     smvcp
+    database_user:     ~
+    database_password: ~
+
+    csrf_secret:       some_csrf_secet
