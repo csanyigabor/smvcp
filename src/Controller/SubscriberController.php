@@ -2,7 +2,6 @@
 
 namespace WND\SMVCP\Controller;
 
-use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use WND\SMVCF\Http\Controller;
 use WND\SMVCP\Entity\Subscriber;
@@ -29,7 +28,7 @@ class SubscriberController extends Controller
     {
         $em = $this->get('doctrine')->getManager();
 
-        $subscriber = new Subscriber;
+        $subscriber = new Subscriber();
 
         $form = $this->createForm(new CreateSubscriberType(), $subscriber);
 

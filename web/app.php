@@ -11,7 +11,7 @@ $autoloadFile = implode(
 if (!file_exists($autoloadFile)) {
     die(
         "You have to run 'composer install' to install dependencies and create "
-        . "autoload file."
+        ."autoload file."
     );
 }
 
