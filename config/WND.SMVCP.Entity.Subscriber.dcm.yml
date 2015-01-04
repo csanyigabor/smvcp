@@ -1,0 +1,15 @@
+WND\SMVCP\Entity\Subscriber:
+    type: entity
+    table: subscribers
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: auto
+    fields:
+        name:
+            type: string
+            nullable: false
+        email:
+            type: string
+            nullable: false
