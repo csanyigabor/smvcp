@@ -1,6 +1,7 @@
 WND\SMVCP\Entity\Subscriber:
     type: entity
     table: subscribers
+    repositoryClass: WND\SMVCP\Repository\Subscriber
     id:
         id:
             type: integer
